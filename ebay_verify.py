@@ -5,7 +5,7 @@ import hmac
 
 app = Flask(__name__)
 
-VERIFICATION_TOKEN = "myCardTrackerToken12345"
+VERIFICATION_TOKEN = "myCardTrackerVerificationToken12345678901234"
 
 @app.route("/ebay-notifications", methods=["GET", "POST"])
 def ebay_notifications():
